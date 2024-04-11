@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puzzle</title>
+    <title>Escape Room</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="room">
+        <div class="intro">
+            <h1>Welcome to the Escape Room!</h1>
+            <p>You find yourself trapped in a mysterious room. Can you solve the puzzles and escape?</p>
+        </div>
+        <div class="puzzle">
+            <h2>Puzzle 1</h2>
+            <p>What has keys but can't open locks?</p>
+            <input type="text" id="answer1" placeholder="Your answer...">
+            <button onclick="checkAnswer('answer1')">Submit</button>
+            <p id="feedback1"></p>
+        </div>
+        <!-- More puzzles and room elements would go here -->
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
