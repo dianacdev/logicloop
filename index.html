@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="nav">
+    <div class="nav" >
         LogicLoop
     </div>
     <div class="room">
@@ -21,8 +21,31 @@
         <div class="puzzle">
             <h2>Puzzle 1</h2>
             <p>What has keys but can't open locks?</p>
-            <input type="text" id="answer1" placeholder="Your answer...">
-            <button onclick="checkAnswer('answer1')">Submit</button>
+            <div class="answerSection">
+                <input type="text" id="answer1" placeholder="Your answer...">
+                <button onclick="checkAnswer('answer1')">Submit</button>
+            </div>
+            <!-- Answer a Piano -->
+            <p id="feedback1"></p>
+        </div>
+        <div class="puzzle">
+            <h2>Puzzle 2</h2>
+            <p>I speak without a mouth and hear without ears. I have no body, but I come alive with the wind What am I?</p>
+            <div class="answerSection">
+                <input type="text" id="answer1" placeholder="Your answer...">
+                <button onclick="checkAnswer('answer1')">Submit</button>
+            </div>
+            <!-- Answer an Echo -->
+            <p id="feedback1"></p>
+        </div>
+        <div class="puzzle">
+            <h2>Puzzle 3</h2>
+            <p>I'm light as a feather, yet the strongest person can't hold me for five minutes. What am I?</p>
+            <div class="answerSection">
+                <input type="text" id="answer1" placeholder="Your answer...">
+                <button onclick="checkAnswer('answer1')">Submit</button>
+            </div>
+            <!-- Answer Breath -->
             <p id="feedback1"></p>
         </div>
         <!-- More puzzles and room elements would go here -->

@@ -4,17 +4,29 @@ body {
     color: #222222;
 }
 
+.answerSection{
+    float:right;
+}
+
 .nav{
-    max-width: 100%;
+    width: 100%;
     font-weight: 700;
     font-size: 40px;
     padding: 1rem;
+    margin-bottom: 10%;
+    background-color: #F5F5F5;
+    filter: drop-shadow(20px 20px 10px #ddd);
+    drop-shadow(offset-x offset-y blur-radius color);
 }
 
 .room {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: 	#F5F5F5;
+    border-radius: 25px;
+    filter: drop-shadow(20px 20px 10px #ddd);
+    drop-shadow(offset-x offset-y blur-radius color);
 }
 
 .intro {
@@ -24,12 +36,16 @@ body {
 
 .puzzle {
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 input[type="text"] {
     width: 200px;
     padding: 5px;
     margin-right: 10px;
+    border-radius: 5px;
+    border-color: #2e2e2e;
+    border:5px
 }
 
 button {
@@ -45,3 +61,4 @@ button:hover {
     background-color: #0056b3;
     border-radius: 50px;
 }
+
