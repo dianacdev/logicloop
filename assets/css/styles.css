@@ -19,7 +19,7 @@ body {
     drop-shadow(offset-x offset-y blur-radius color);
 }
 
-.room {
+.home {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
